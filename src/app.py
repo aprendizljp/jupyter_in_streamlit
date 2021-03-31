@@ -4,9 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from time import sleep
+
 # Function definition for data load
 def data_load(path):
   data = pd.read_csv(path)
+  sleep(3)
   return data
 
 # Function definition to create the comparison charts
