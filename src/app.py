@@ -10,7 +10,6 @@ from time import sleep
 @st.cache
 def data_load(path):
   data = pd.read_csv(path)
-  sleep(3)
   return data
 
 # Function definition to create the comparison charts
