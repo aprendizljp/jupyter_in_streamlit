@@ -7,6 +7,7 @@ import seaborn as sns
 from time import sleep
 
 # Function definition for data load
+@st.cache
 def data_load(path):
   data = pd.read_csv(path)
   sleep(3)
