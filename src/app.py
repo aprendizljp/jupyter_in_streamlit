@@ -86,6 +86,7 @@ def main():
     selected_year = st.sidebar.selectbox('Select data period', ['2019', '2020', '2021'])
     st.dataframe(all_data[data_to_show[selected_year]])
     st.text('Add source data here')
+    # Just a comment
 
 if __name__ == "__main__":
   main()
